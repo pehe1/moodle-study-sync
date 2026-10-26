@@ -1,0 +1,2 @@
+# Coletor opcional, separado do planejador local.
+moodle-dl==2.3.13

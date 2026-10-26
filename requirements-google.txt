@@ -1,0 +1,4 @@
+# Conector não oficial; sessão Web em diretório privado do usuário.
+notebooklm-py[browser]==0.8.5
+pypdf==6.10.0
+filelock==4.2.4

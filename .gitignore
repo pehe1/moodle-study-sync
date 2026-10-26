@@ -1,0 +1,58 @@
+# Configuração e dados de uso real
+config.local.toml
+*.local.toml
+.env
+.env.*
+!.env.example
+/data/
+/private/
+/downloads/
+/reports/
+/logs/
+/state/
+*.sqlite
+*.sqlite3
+*.sqlite*
+*.db
+*.log
+
+# Sessões e credenciais de conectores
+/.auth/
+/.notebooklm/
+/browser-profile/
+**/storage_state*.json
+**/master_token*.json
+**/credentials*.json
+**/token*.json
+**/cookie*.txt
+**/cookies*.json
+**/config.json
+
+# Materiais acadêmicos não devem ser adicionados por acidente
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.epub
+*.zip
+*.mp3
+*.mp4
+*.wav
+
+# Ambiente de desenvolvimento
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+/tests/.tmp/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Cópias de conflito geradas por sincronizadores de arquivos
+*Edit conflict*
+*conflicted copy*

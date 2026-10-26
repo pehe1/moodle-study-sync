@@ -1,0 +1,10 @@
+# Configuração consumida por python -m moodle_study_sync.run
+schema_version = 1
+semester = "SEMESTRE"
+source_limit = 50 # Confirme o limite exibido na sua conta.
+
+[[courses]]
+enabled = false
+course_id = "ID_MOODLE"
+notebook_id = "ID_GOOGLE"
+inventory = "private/materia.inventory.json"

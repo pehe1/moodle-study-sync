@@ -1,0 +1,42 @@
+# Exemplo de desenho da configuração. Ainda não há programa que leia este arquivo.
+# Não incluir tokens, senhas ou arquivos de sessão nesta pasta.
+schema_version = 1
+semester = "Semestre de exemplo"
+
+[moodle]
+base_url = "https://moodle.example.edu"
+auth_mode = "institutional-interactive"
+collector = "pending-pilot"
+
+[storage]
+materials_root = "./data/materials"
+state_file = "./data/state.sqlite3"
+secrets_location = "os-user-private-directory"
+
+[notebook]
+provider = "google-gemini-notebook"
+account_type = "unverified"
+driver = "pending-pilot"
+
+[drive]
+enabled = false
+
+[sync]
+preview_first = true
+automatic_upload = false
+delete_local = false
+delete_remote = false
+allowed_extensions = [".pdf", ".docx", ".pptx", ".txt", ".md"]
+include_forums = false
+include_grades = false
+include_submissions = false
+
+[schedule]
+enabled = false
+
+[[courses]]
+course_id = ""
+name = "Matéria de exemplo"
+notebook_name = "Matéria de exemplo"
+notebook_id = ""
+enabled = false
